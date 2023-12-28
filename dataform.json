@@ -2,10 +2,10 @@
   "defaultSchema": "imdb",
   "assertionSchema": "DF_ASSERTIONS",
   "warehouse": "bigquery",
-  "defaultDatabase": "winter-dataform",
-  "defaultLocation": "australia-southeast1",
+  "defaultDatabase": "internal-reporting-393413",
+  "defaultLocation": "us-central1",
   "vars": {
-    "LOAD_GCS_BUCKET": "winter-data/imdb",
+    "LOAD_GCS_BUCKET": "goldrushflow/imdb",
     "RAW_DATA": "imdb_staging",
     "BASE_DATA": "imdb"
   }
